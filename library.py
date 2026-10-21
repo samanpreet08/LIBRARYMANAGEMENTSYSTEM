@@ -6,4 +6,5 @@ def search_book(q):
         if q.lower() in title.lower():
             return title 
         return "Book not found"
-    
+
+search_book("101")
